@@ -1,0 +1,190 @@
+/* Defaults CSS file */
+
+/*
+//------------------------------
+//  InfoContainer
+//------------------------------
+*/
+
+InfoContainer
+{
+    borderSkin : ClassReference("com.esri.ags.controls.infoClasses.InfoBorder");
+    verticalGap : 0;
+    paddingLeft : 3;
+    paddingRight : 3;
+    paddingTop : 3;
+    paddingBottom : 3;
+    backgroundColor : #999999;
+    backgroundAlpha : 1.0;
+    upperLeftRadius : 5;
+    upperRightRadius : 5;
+    lowerLeftRadius : 5;
+    lowerRightRadius : 5;
+    infoPlacement : upperRight;
+    infoOffsetX : 12;
+    infoOffsetY : 12;
+    infoOffsetW : 10;
+}    
+
+/*
+//------------------------------
+//  InfoSymbolContainer
+//------------------------------
+*/
+
+InfoSymbolContainer
+{
+    borderSkin : ClassReference("com.esri.ags.controls.infoClasses.InfoBorder");
+    verticalGap : 0;
+    paddingLeft : 3;
+    paddingRight : 3;
+    paddingTop : 3;
+    paddingBottom : 3;
+    backgroundColor : #999999;
+    backgroundAlpha : 1.0;
+    upperLeftRadius : 5;
+    upperRightRadius : 5;
+    lowerLeftRadius : 5;
+    lowerRightRadius : 5;
+    infoPlacement : upperRight;
+    infoOffsetX : 12;
+    infoOffsetY : 12;
+    infoOffsetW : 10;
+}    
+
+/*
+//------------------------------
+//  InfoWindowLabel
+//------------------------------
+*/
+
+InfoWindowLabel
+{
+    fontWeight : bold;
+    fontSize : 12;
+}
+
+/*
+//------------------------------
+//  InfoWindowCloseButton
+//------------------------------
+*/
+
+InfoWindowCloseButton
+{
+    disabledSkin: Embed(source="assets/callout_icons.swf",symbol="Callout_closeButtonDisabledSkin");
+    downSkin: Embed(source="assets/callout_icons.swf",symbol="Callout_closeButtonDownSkin");
+    overSkin: Embed(source="assets/callout_icons.swf",symbol="Callout_closeButtonOverSkin");
+    upSkin: Embed(source="assets/callout_icons.swf",symbol="Callout_closeButtonUpSkin");
+    width: 18;
+    height: 18;
+}
+
+/*
+//------------------------------
+//  Map
+//------------------------------
+*/
+
+Map
+{
+    crosshairColor: #000000;
+    crosshairLength: 10;
+    crosshairWidth: 1;
+    
+    rubberbandFillStyle: "outside";
+    rubberbandFillAlpha: 0.5;
+    rubberbandFillColor: #000000;
+    rubberbandLineAlpha: 1.0;
+    rubberbandLineColor: #FF0000;
+    rubberbandLineWidth: 2;
+
+    panDownSkin: Embed(source="assets/pan/pan-s.png");
+    panLeftSkin: Embed(source="assets/pan/pan-w.png");
+    panLowerLeftSkin: Embed(source="assets/pan/pan-sw.png");
+    panLowerRightSkin: Embed(source="assets/pan/pan-se.png");
+    panRightSkin: Embed(source="assets/pan/pan-e.png");
+    panUpperLeftSkin: Embed(source="assets/pan/pan-nw.png");
+    panUpperRightSkin: Embed(source="assets/pan/pan-ne.png");
+    panUpSkin: Embed(source="assets/pan/pan-n.png");
+}
+
+/*
+//------------------------------
+//  Navigation
+//------------------------------
+*/
+
+Navigation
+{
+    borderStyle: "solid";
+    borderThickness: 0;
+    horizontalAlign: "center";
+    cornerRadius: 10;
+    backgroundAlpha: 0.5;
+    backgroundColor: #000000;
+    paddingLeft: 3;
+    paddingRight: 4;
+    paddingTop: 1;
+    paddingBottom: 1;    
+    top: 20;
+    left: 20;
+}
+
+/*
+//------------------------------
+//  NavigationMinusButton
+//------------------------------
+*/
+
+NavigationMinusButton
+{
+    disabledSkin: Embed(source="assets/navigation_icons.swf",symbol="MinusButton_Disabled");
+    downSkin: Embed(source="assets/navigation_icons.swf",symbol="MinusButton_Down");
+    overSkin: Embed(source="assets/navigation_icons.swf",symbol="MinusButton_Over");
+    upSkin: Embed(source="assets/navigation_icons.swf",symbol="MinusButton_Up");
+}
+
+/*
+//------------------------------
+//  NavigationPlusButton
+//------------------------------
+*/
+
+NavigationPlusButton
+{
+    disabledSkin: Embed(source="assets/navigation_icons.swf",symbol="PlusButton_Disabled");
+    downSkin: Embed(source="assets/navigation_icons.swf",symbol="PlusButton_Down");
+    overSkin: Embed(source="assets/navigation_icons.swf",symbol="PlusButton_Over");
+    upSkin: Embed(source="assets/navigation_icons.swf",symbol="PlusButton_Up");
+}
+
+/*
+//------------------------------
+//  NavigationSlider
+//------------------------------
+*/
+
+NavigationSlider
+{
+    showScaleInDataTip: true;
+    dataTipPlacement: "right";
+    tickColor: #000000;
+    tickLength: 3;
+    tickOffset: -3;
+    tickThickness: 1;
+}
+
+/*
+//------------------------------
+//  ScaleBar
+//------------------------------
+*/
+
+ScaleBar
+{
+    fillColor: #000000;
+    outlineColor: #FFFFFF;
+    left: 5;
+    bottom: 15;
+}
